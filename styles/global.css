@@ -11,16 +11,16 @@
   --opensans: "Open Sans", sans-serif;
 
   /*LECKERLI*/
-  --logo: 400 40px/auto var(--lackerly);
+  --logo: 400 40px/1.4 var(--lackerly);
 
   /*BALOO*/
-  --heading-md: 800 28px/auto var(--baloo);
-  --heading-sm: 800 18px/auto var(--baloo);
+  --heading-md: 800 28px/1.4 var(--baloo);
+  --heading-sm: 800 18px/1.4 var(--baloo);
 
   /*OPEN SANS*/
-  --body-md: 600 16px/auto var(--opensans);
-  --body-sm: 600 14px/auto var(--opensans);
-  --body-xs: 600 12px/auto var(--opensans);
+  --body-md: 400 16px/1.4 var(--opensans);
+  --body-sm: 400 14px/1.2 var(--opensans);
+  --body-xs: 400 12px/1.2 var(--opensans);
   /* --------------------- */
 
   /*COLORS*/
@@ -63,7 +63,3 @@ body {
   background-color: var(--shape-background);
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
