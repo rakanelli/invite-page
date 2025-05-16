@@ -51,10 +51,17 @@ input[type="checkbox"] {
     height: 14px;
     position: absolute;
 
-    fill: var(--input-stroke);
+    fill: transparent;
   }
 }
 
+.custom-checkbox {
+  transition: border 0.2s ease;
+}
+
+.check-icon {
+  transition: fill 0.4s ease;
+}
 
 .custom-checkbox:checked + .content {
   .box {
