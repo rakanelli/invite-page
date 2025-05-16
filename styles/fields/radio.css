@@ -114,7 +114,7 @@
 }
 
 .color-option input:checked + .circle {
-  outline: 2px solid var(--brand-light);
+  outline: 3px solid var(--brand-light);
 }
 
 /* THEME PICKER */
@@ -172,7 +172,7 @@
 }
 
 .theme-option input:checked + .content  {
-  outline: 2px solid var(--brand-light);
+  outline: 3px solid var(--brand-light);
   border-radius: .5rem;
 }
 

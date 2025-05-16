@@ -8,7 +8,7 @@
 }
 
 .grid5050 {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .5fr 1fr;
   gap: 16px;
 }
 
