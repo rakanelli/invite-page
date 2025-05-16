@@ -1,0 +1,7 @@
+input[type="date"] {
+  text-transform: uppercase;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

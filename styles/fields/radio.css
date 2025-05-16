@@ -4,8 +4,7 @@
 
   width: fit-content;
   height: 3.2rem;
-
-  gap: .25rem;
+  
   padding: 6px;
 
   border: 1px solid var(--input-stroke);
