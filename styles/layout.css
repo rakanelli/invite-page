@@ -51,5 +51,16 @@ main {
   background-color: var(--shape-body);
   border-radius: .75rem;
 
-  & .main-container {}
+  & .main-container {
+    max-width: 35rem;
+    margin-block: 5rem; 
+    margin-inline: 8.125rem;
+  }
+
+  & .header h2 {
+    font: var(--heading-md);
+    color: var(--text-heading);
+
+    margin-bottom: 2.5rem;
+  }
 }

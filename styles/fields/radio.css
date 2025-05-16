@@ -1,0 +1,70 @@
+.radio-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  width: fit-content;
+  height: 3.2rem;
+
+  gap: .25rem;
+  padding: 6px;
+
+  border: 1px solid var(--input-stroke);
+  border-radius: .5rem;
+
+  position: relative;
+  inset: 0;
+
+  & input {
+    opacity: 0;
+    width: 50%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  & .build, .video {
+    width: 1rem;
+    height: 1rem;
+
+    vertical-align: top;
+  }
+
+  & label {
+    font: var(--body-sm);
+    color: var(--text-heading);
+
+    vertical-align: top;
+  }
+}
+
+.radio-inner:focus,
+.radio-inner:focus-within {
+  border: 2px solid var(--brand-light);
+  outline: none;
+}
+
+.radio-wrapper {
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+
+  max-height: 35px;
+
+  &:hover, &:focus-within {
+    background-color: var(--input-stroke);
+    border-radius: .5rem;
+
+    & label {
+      font-weight: bold;
+    }
+
+    & .build,
+    & .video {
+      path {
+        fill: var(--brand-light);
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+}
+
+.grid-half {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.grid5050 {
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.grid-flow-col {
+  grid-template-columns: auto;
+}
+
+.margin-8 {
+  margin-right: 8px;
+}
+
+.w-130 {
+  width: 130px;
+}

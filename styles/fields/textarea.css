@@ -1,0 +1,22 @@
+textarea {
+  all: unset;
+
+  height: 136px;
+
+  background-color: var(--input-background);
+
+  border: 1px solid var(--input-stroke);
+  border-radius: .5rem;
+
+  font: var(--body-md);
+  color: var(--text-heading);
+
+  padding-block: .75rem;
+  padding-inline: 1rem;
+}
+
+textarea:focus,
+textarea:focus-within {
+  border: 2px solid var(--brand-light);
+  outline: none;
+}
