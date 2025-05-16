@@ -6,7 +6,8 @@ fieldset {
   gap: 1rem;
 }
 
-.about {
+.about, 
+.customization {
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -22,4 +23,8 @@ fieldset {
     font: var(--heading-sm);
     color: var(--text-heading);
   }
+}
+
+fieldset + fieldset {
+  margin-top: 3rem;
 }

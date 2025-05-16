@@ -67,4 +67,64 @@
   }
 }
 
+/* COLOR PICKER */
+
+.colors-radio {
+  margin-bottom: 28px;
+  
+  & span {
+    font: var(--body-sm);
+    color: var(--text-heading);
+
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+}
+
+.color-picker {
+  display: flex;
+  gap: 0.7rem;
+
+  width: fit-content;
+}
+
+.color-option {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  cursor: pointer;
+
+  & input {
+    display: none;
+  }
+
+  & .circle {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 6px solid var(--shape-button);
+
+    transition: outline 0.1s ease;
+  }
+}
+
+.color-option input:checked + .circle {
+  outline: 2px solid var(--brand-light);
+}
+
+/* THEME PICKER */
+
+.theme-radio {
+  & span {
+    font: var(--body-sm);
+    color: var(--text-heading);
+
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+}
+
+
 
