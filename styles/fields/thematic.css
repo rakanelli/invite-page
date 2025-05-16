@@ -60,10 +60,10 @@
 }
 
 .thematic-option input:checked + .content {
-  outline: 3px solid var(--brand-mid);
+  outline: 2.5px solid var(--brand-mid);
 
   & .btn-dark {
-    border: 3px solid var(--brand-mid);
+    border: 2.5px solid var(--brand-mid);
   }
 }
 /* ---------------------------- */

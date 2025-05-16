@@ -1,0 +1,43 @@
+.btn-submit {
+  display: none;
+}
+
+.sub-wrapper {
+  display: flex;
+  padding-left: 383px;
+  margin-top: 48px;
+  width: 560px;
+}
+
+.btn-content {
+  display: flex;
+  gap: 12px;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 177px;
+  height: 48px;
+
+  background-color: var(--brand-mid);
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+
+  & img {
+    width: 20px;
+    height: 20px;
+  }
+
+  & span {
+    font: var(--body-md);
+    color: var(--text-heading);
+    font-weight: 600;
+  }
+}
+
+.btn-content:hover {
+  background-color: var(--brand-dark);
+}
