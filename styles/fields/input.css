@@ -20,6 +20,8 @@ input {
 
   padding-block: .75rem;
   padding-inline: 1rem;
+
+  transition: border 0.2s ease;
 }
 
 input:focus,
